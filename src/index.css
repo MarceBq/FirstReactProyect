@@ -1,0 +1,212 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+} 
+
+button{
+    width: 140px;
+    height: 50px;
+    background-color: yellow;
+    color: black;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 100%;  
+    height: 100%;
+}
+
+.NavBar{
+    width: 100%;
+    display: flex;    
+    align-items:  center;
+    background-color: black;
+    justify-content: space-around;    
+    color: white;
+    font-size: 20px;
+}
+
+.NavBar-mid{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+}
+
+.hero-container{
+    width: 87%;
+}
+
+.hero-container h1{
+    width: 50%;
+    font-size: 55px;
+    color: white;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.hero-container p{
+    width: 50%;
+    font-size: 20px;
+    color:rgb(115, 115, 115);
+}
+
+.brands{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.brands-container{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-container{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-left{
+    width: 45%;
+    color: white;
+}
+
+.project-left p{
+    font-size: 20px;
+    color:rgb(115, 115, 115);
+}
+
+.project-rigth{
+    width: 45%; 
+    color: white;
+}
+
+.project-rigth p{
+    font-size: 20px;
+    color:rgb(115, 115, 115);
+}
+
+.Description{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(55, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description-container{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Description-left{
+    width: 45%;
+    height: 370px;
+}
+
+.Description-left h2{
+    color: white;
+    width: 520px;
+    font-size: 2.7em;
+}
+
+.Description-left p{
+    font-size: 1.25em;
+    color:rgb(115, 115, 115);
+}
+
+.Description-rigth{
+    width: 45%;
+    height: 300px;
+}
+
+.Description-rigth p{
+    font-size: 1.25em;
+    color:rgb(115, 115, 115);
+}
+
+.InterestText{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.InterestText-container{
+    width: 87%;
+}
+
+.InterestText-container h2{
+    font-size: 2.5em;
+    color: white;
+    margin: 0px;
+
+}
+
+.InterestText-container p{
+    width: 500px;
+    font-size: 1.25em;
+    color:rgb(115, 115, 115);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 54, 54);
+}
+
+.container-footer{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Name p{
+    font-size: 1.25em;
+    color: #fbfbfb;
+}
+
+.Icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
